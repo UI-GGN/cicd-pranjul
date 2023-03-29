@@ -11,4 +11,4 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       AccessControl: Private
-      BucketName: "frontend-ci-cd-123"
+      BucketName: "frontend-ci-cd-123-pranjul"

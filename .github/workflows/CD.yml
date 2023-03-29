@@ -39,7 +39,7 @@ jobs:
         yarn build
     - name: Upload to S3
       run: |
-        aws s3 sync ./build s3://frontend-ci-cd-123 --delete
+        aws s3 sync ./build s3://frontend-ci-cd-123-pranjul --delete
     - name: Upload to S3
       run: |
         aws cloudfront create-invalidation --distribution-id E2B8UOKCE3FAEE --paths "/*"
